@@ -1,0 +1,20 @@
+{
+  "name": "land-lord",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "cssnano": "^4.1.10",
+    "gulp": "^4.0.2",
+    "gulp-clean": "^0.4.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.7.0",
+    "gulp-esbuild": "^0.3.14",
+    "gulp-inject": "^5.0.5",
+    "gulp-postcss": "^9.0.0",
+    "gulp-posthtml": "^3.0.5",
+    "gulp-pug": "^4.0.1",
+    "postcss": "^8.2.2",
+    "posthtml-inline-assets": "^3.1.0"
+  }
+}
