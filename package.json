@@ -56,11 +56,11 @@
   },
   "size-limit": [
     {
-      "limit": "100 B",
+      "limit": "200 B",
       "path": "./build/*.js"
     },
     {
-      "limit": "100 B",
+      "limit": "200 B",
       "path": "./build/*.css"
     }
   ],
