@@ -12,7 +12,7 @@ Simple temaplte for creating static sites with no effort.
 - Start dev server by `yarn gulp dev`
 - You are great!
 
-## How to write code
+## Development
 
 For markup use [pug](https://pugjs.org/), just write code in `./src/index.pug`. All styles will be processed with [PostCSS](https://postcss.org). All scripts will be processed with [esbuild](https://esbuild.github.io).
 
@@ -29,3 +29,7 @@ Some rules:
 - Use `[name].css` filename for styles of widget, use [BEM Naming](http://getbem.com/naming/) (or other naming-strategy) for scoping.
 
 [Example](./src/widgets).
+
+## Production
+
+Build page with `yarn gulp build` or use Docker. This template provide the Dockerfile — build container `docker build -t my-app .` and run production application `docker run -p 8080:8080 my-app`.
