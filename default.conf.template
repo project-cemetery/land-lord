@@ -1,0 +1,8 @@
+server {
+  listen   8080;
+  listen   [::]:8080 ipv6only=on;
+
+  root /srv/www;
+  index index.html;
+  server_name _;
+}
