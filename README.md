@@ -1,6 +1,6 @@
 # Land-lord
 
-Simple temaplte for creating static sites with no effort.
+Simple template for creating static sites with no effort.
 
 - _Customizable_ — all configurations are exposed by default
 - _Zero bundle-size_ — build-time system, no runtime dependencies
@@ -20,7 +20,7 @@ Warning! This template is for very small landing pages. Therefore, all scripts a
 
 ### Widgets
 
-This temaplte has s very simple component-like system — you can create pug-file, css-file and js-file for reusable component.
+This template has s very simple component-like system — you can create pug-file, css-file and js-file for reusable component.
 
 Some rules:
 
