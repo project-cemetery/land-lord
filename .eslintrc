@@ -1,0 +1,36 @@
+{
+  "plugins": ["eslint-plugin-import-helpers"],
+  "extends": ["airbnb-base", "prettier"],
+  "rules": {
+    "no-undef": 0,
+    "no-continue": 0,
+    "no-restricted-syntax": 0,
+    "global-require": 0,
+    "class-methods-use-this": 0,
+    "no-param-reassign": 0,
+    "import/no-unresolved": 0,
+    "import/no-extraneous-dependencies": 0,
+    "import/prefer-default-export": 0,
+    "import/extensions": 0,
+    "import-helpers/order-imports": [
+      "warn",
+      {
+        "newlinesBetween": "always",
+        "groups": ["module", ["parent", "sibling", "index"]],
+        "alphabetize": {
+          "order": "ignore",
+          "ignoreCase": true
+        }
+      }
+    ]
+  },
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true,
+      "legacyDecorators": true
+    },
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  }
+}

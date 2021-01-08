@@ -1,3 +1,3 @@
-const cssnano = require("cssnano");
+const cssnano = require('cssnano');
 
 module.exports = { plugins: [cssnano()] };

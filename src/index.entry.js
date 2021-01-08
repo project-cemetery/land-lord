@@ -1,4 +1,4 @@
-import { log } from "./module";
+import { log } from './module';
 
 const t = () => log();
- t()
+t();

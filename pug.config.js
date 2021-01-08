@@ -1,5 +1,5 @@
 module.exports = {
   locals: {
-    example_data: "HELLO",
+    example_data: 'HELLO',
   },
 };

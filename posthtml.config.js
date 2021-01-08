@@ -1,3 +1,3 @@
-const posthtmlInlineAssets = require("posthtml-inline-assets");
+const posthtmlInlineAssets = require('posthtml-inline-assets');
 
 module.exports = { plugins: [posthtmlInlineAssets()] };
