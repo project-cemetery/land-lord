@@ -2,6 +2,9 @@
 
 Simple temaplte for creating static sites with no effort.
 
+- _Customizable_ — all configurations are exposed by default
+- _Zero bundle-size_ — build-time system, no runtime dependencies
+
 ## Usage
 
 - [Create a repository from the template](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template)
@@ -13,7 +16,7 @@ Simple temaplte for creating static sites with no effort.
 
 For markup use [pug](https://pugjs.org/), just write code in `./src/index.pug`. All styles will be processed with [PostCSS](https://postcss.org). All scripts will be processed with [esbuild](https://esbuild.github.io).
 
-Warning! This template is for very small landing pages. Therefore, all scripts and styles will be inlined into the HTML.
+Warning! This template is for very small landing pages. Therefore, all scripts and styles will be inlined into the HTML by default. You can disable it.
 
 ### Widgets
 
