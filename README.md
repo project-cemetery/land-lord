@@ -11,10 +11,18 @@ Simple temaplte for creating static sites with no effort.
 
 ## How to write code
 
-For markup use [pug](https://pugjs.org/), just write your code in `./src/index.pug`. If you want reuse some parts of markup — use [pug-mixins](https://pugjs.org/language/mixins.html).
+For markup use [pug](https://pugjs.org/), just write code in `./src/index.pug`. All styles will be processed with [PostCSS](https://postcss.org). All scripts will be processed with [esbuild](https://esbuild.github.io).
+
+Warning! This template is for very small landing pages. Therefore, all scripts and styles will be inlined into the HTML.
 
 ### Widgets
 
 This temaplte has s very simple component-like system — you can create pug-file, css-file and js-file for reusable component.
+
+Some rules:
+
+- Use `[name].pug` filename for markup of widget and put mixin inside, then use mixin in other pug-file.
+- Use `[name].entry.js` filename for scripts of widget, it will be scoped by [IFFE](https://developer.mozilla.org/en-US/docs/Glossary/IIFE).
+- Use `[name].css` filename for styles of widget, use [BEM Naming](http://getbem.com/naming/) (or other naming-strategy) for scoping.
 
 [Example](./src/widgets).
