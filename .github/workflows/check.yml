@@ -31,7 +31,7 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - run: yarn install
-      - run: yarn code:lint
+      - run: yarn lint:code
   lint-styles:
     runs-on: ubuntu-latest
     strategy:
@@ -43,4 +43,4 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - run: yarn install
-      - run: yarn code:styles
+      - run: yarn lint:styles
