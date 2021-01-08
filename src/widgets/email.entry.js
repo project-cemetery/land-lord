@@ -1,3 +1,3 @@
-const petr = () => 2 + 2;
+const email = document.querySelector('.email');
 
-console.log(petr());
+console.log(email);
